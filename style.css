@@ -1,0 +1,32 @@
+body {
+  text-align: center;
+  background-image: url('background.jpg');
+}
+
+#title { 
+  font-family: 'Romanesco', cursive;
+  font-size: 4em;
+}
+
+#reset {
+  font-size: 13px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  transition-duration: 0.1s;
+}
+
+#reset:hover {
+  background-color: #42f5bf;
+}
+
+.grid {
+    display: grid;
+    max-width: 500px;
+    min-height: 500px;
+    margin: 2rem auto;
+    border: 1px solid black;
+  }
+
+  .gridSquare {
+    border: 1px solid black;
+  }
+
